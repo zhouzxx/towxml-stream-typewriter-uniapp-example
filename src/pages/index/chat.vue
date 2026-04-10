@@ -25,7 +25,7 @@ export default {
   setup(props, { emit }) {
     const questionType = 0; //问题
     const answerType = 1; //答案
-    const speed = 8;
+    const speed = 5;
     function finish(e) {
       emit("finish", e);
     }
